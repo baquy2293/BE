@@ -7,7 +7,7 @@ public class soution {
     static void showArray(int[] a) {
         System.out.println(Arrays.toString(a));
     }
-
+// chia nhỏ rồi sắp sếp 
     public static void merge(int[] a, int left, int right, int middle) {
 // gan cac gia tri
         int l = left;
@@ -78,7 +78,7 @@ public class soution {
             }
         }
     }
-
+// sắp sếp rồi chia  
     //Selection sort
     static void selectionSort(int[] a) {
         for (int i = 0; i < a.length - 1; i++) {
